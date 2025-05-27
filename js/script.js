@@ -25,5 +25,5 @@ window.onload = function () {
 
   // output
   document.getElementById("side").innerHTML = lengthOfRadius
-  document.getElementById("volume").innerHTML = "Volume is: " + volume + " mm²"
+  document.getElementById("volume").innerHTML = "Volume is: " + volume.toFixed(2) + " mm²"
 }
