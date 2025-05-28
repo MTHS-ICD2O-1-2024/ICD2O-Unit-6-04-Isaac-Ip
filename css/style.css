@@ -29,28 +29,12 @@ body {
 }
 
 img {
-  display: block;
-  margin: 0 auto;
-  height: 170px;
-  width: 170px;
+  float: right;
+  height: 200px;
 }
 
-h4 {
+h1 {
   font-size: larger;
   font-family: monospace;
   color: white;
-}
-
-.button {
-  background-color: transparent;
-  background-repeat: no-repeat;
-  border: none;
-  cursor: pointer;
-  overflow: hidden;
-  outline: none;
-  margin: auto;
-  background-size: contain;
-  border-radius: 100%;
-  width: 170px;
-  height: 170px;
 }
